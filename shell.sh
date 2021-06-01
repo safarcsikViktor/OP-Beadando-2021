@@ -21,5 +21,5 @@ echo "Küldök egy email-t Ferencnek, mert még mindig nem hozta vissza a kedven
 Recipient=”feri@gmail.com”
 Subject=”Lemez is back”
 Message=”Kedves Feri!Még mindig nem hoztad vissza a lemezem!Mellékelek egy képet is, hogy észrevedd magad!”
-mail -a -a /temp/hozdvissza.jpg -s $Subject $Recipient <<< $Message
+mail -a /temp/hozdvissza.jpg -s $Subject $Recipient <<< $Message
 
